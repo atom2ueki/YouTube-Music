@@ -3,55 +3,17 @@
     <channel>
         <title>YT Music</title>
         <item>
-            <title>Version 1.2.0</title>
-            <description>
-                <![CDATA[
-                <style>
+            <title>1.2.1</title>
+            <pubDate>Thu, 04 Nov 2021 04:04:44 +0800</pubDate>
+            <sparkle:minimumSystemVersion>10.12.2</sparkle:minimumSystemVersion>
+            <enclosure url="https://raw.githubusercontent.com/atom2ueki/YouTube-Music/master/YT-Music-1.2.1.zip" sparkle:version="1" sparkle:shortVersionString="1.2.1" length="6218153" type="application/octet-stream"/>
+            <description><![CDATA[<style>
     body { font-family: -apple-system, sans-serif; font-size: 0.9em; line-height: 150%; }
     h3 { font-size: 1.5em; margin-bottom: 0; font-weight: 700; }
     li { margin-bottom: 0.5em; }
-</style><h3>Added</h3><ul><li>Apple Silicon support. <a href="https://github.com/steve228uk/YouTube-Music/pull/149">#149</a></li><li>Deeply integrated support for Touch Bar on MacBook Pro. <a href="https://github.com/steve228uk/YouTube-Music/pull/146">#146</a></li><li>Alternative global shortcut keys for controlling music playback. <a href="https://github.com/steve228uk/YouTube-Music/pull/140">#140</a></li></ul>
-                ]]>
-            </description>
-            <pubDate>Wed, 27 Oct 2021 15:49:47 +0000</pubDate>
-            <sparkle:minimumSystemVersion>10.12.2</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/steve228uk/YouTube-Music/releases/download/1.2.0/YT-Music-1.2.0.zip"
-            sparkle:version="11" sparkle:shortVersionString="1.2.0"
-            sparkle:edSignature="Fc8GvL8IXWhknBtsRIQyieGbXgTlSUI6cWBdX0gTK9ci3alfq9foeftUIEEZ//Xf8AZiZ0ITIvESZyscubYLAQ==" length="5812009"
-            type="application/octet-stream"/>
-        </item>
-        <item>
-            <title>Version 1.1.1</title>
-            <description>
-                <![CDATA[
-                <style>
-                    body { font-family: -apple-system, sans-serif; font-size: 0.9em; line-height: 150%; }
-                    h3 { font-size: 1.5em; margin-bottom: 0; font-weight: 700; }
-                    li { margin-bottom: 0.5em; }
-                </style>
-                <h3>Fixes</h3><ul><li>Media control keys not responding on newer versions of macOS. <a href="https://github.com/steve228uk/YouTube-Music/pull/57">#57</a></li><li>Content not appearing in macOS Big Sur. <a href="https://github.com/steve228uk/YouTube-Music/pull/130">#130</a></li></ul>
-                ]]>
-            </description>
-            <pubDate>Tue, 27 Apr 2021 13:42:20 +0000</pubDate>
-            <sparkle:minimumSystemVersion>10.11</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/steve228uk/YouTube-Music/releases/download/1.1.1/YT-Music-1.1.1.zip"
-            sparkle:version="10" sparkle:shortVersionString="1.1.1"
-            sparkle:edSignature="vONJF4UEzH+ZSCFC6E6tDhrLtzz4j0k4UTPKMM4sRedKybgyojpyGZtAu4G9n4KoegB/7JJ0NMqTjoeKtIyzBg==" length="5656986"
-            type="application/octet-stream"/>
-        </item>
-        <item>
-            <title>Version 1.1.0</title>
-            <description>
-                <![CDATA[
-                <p>G'day everyone! Tim here! It took a fair few weeks of R&amp;D (including <a href="https://github.com/fastlane/fastlane/pull/18496">a PR to fastlane</a> itself!), but with Steve's blessing, I've finally managed to remove DevMateKit and replace it with an automated build system around GitHub Actions that will enable creating release updates of YT Music <em>far</em> more frequently than before.</p><p>This is just a basic release incorporating all of the previous improvements, but now this system in place, hopefully we can start bringing new features and OS support to the app moving forward! Enjoy!</p><h3>Added</h3><ul><li>A Github Actions automated release pipeline. <a href="https://github.com/steve228uk/YouTube-Music/pull/126">#126</a></li></ul><h3>Changes</h3><ul><li>Set <code>NSRequiresAquaSystemAppearance</code> to <code>false</code> to enable Dark Mode appearance <a href="https://github.com/steve228uk/YouTube-Music/pull/102">#102</a></li></ul><h3>Fixes</h3><ul><li>Music auto-plays when receiving call. <a href="https://github.com/steve228uk/YouTube-Music/pull/58">#58</a></li><li>Enabled media controller commands. <a href="https://github.com/steve228uk/YouTube-Music/pull/81">#81</a></li><li>Latest album art being pulled correctly for every new notification. <a href="https://github.com/steve228uk/YouTube-Music/pull/84">#84</a></li><li>Too many notifications appearing too often. <a href="https://github.com/steve228uk/YouTube-Music/pull/85">#85</a></li><li>App crashes when resizing the window. <a href="https://github.com/steve228uk/YouTube-Music/pull/87">#87</a></li></ul>
-                ]]>
-            </description>
-            <pubDate>Sat, 24 Apr 2021 16:13:10 +0000</pubDate>
-            <sparkle:minimumSystemVersion>10.11</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/steve228uk/YouTube-Music/releases/download/1.1.0/YT-Music-1.1.0.zip"
-            sparkle:version="9" sparkle:shortVersionString="1.1.0"
-            sparkle:edSignature="+iHOBGvyva+Khkv2nsN9antCRb9MVRUpcbLBTAcjgy4D8xwLLZaCRMWROnTBiIlSWEpcwux45yUDT22lcl9pDA==" length="5657616"
-            type="application/octet-stream"/>
+</style>
+<h3>Added</h3><ul><li>Add Search Shortcut `Command + Shift + F`. <a href="https://github.com/atom2ueki/YouTube-Music/pull/2">#2</a></li><li>Use the new icon which follow macOS Monterey design language. <a href="https://github.com/atom2ueki/YouTube-Music/pull/2">#2</a></li></ul>
+<h3>Fixes</h3><ul><li>Search enter keypress not working. <a href="https://github.com/atom2ueki/YouTube-Music/pull/2">#2</a></li></ul>]]></description>
         </item>
     </channel>
 </rss>
