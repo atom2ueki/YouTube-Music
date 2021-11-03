@@ -6,6 +6,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.2.1] - 2021-11-04
+
+### Added
+
+* Add Search Shortcut `Command + Shift + F`. [#2](https://github.com/atom2ueki/YouTube-Music/pull/2)
+
+### Fixes
+* Search enter keypress not working. [#2](https://github.com/atom2ueki/YouTube-Music/pull/2)
+
 ## [1.2.0] - 2021-10-27
 
 ### Added
