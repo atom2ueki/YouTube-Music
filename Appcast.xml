@@ -7,6 +7,13 @@
             <pubDate>Thu, 04 Nov 2021 04:04:44 +0800</pubDate>
             <sparkle:minimumSystemVersion>10.12.2</sparkle:minimumSystemVersion>
             <enclosure url="https://raw.githubusercontent.com/atom2ueki/YouTube-Music/master/YT-Music-1.2.1.zip" sparkle:version="1" sparkle:shortVersionString="1.2.1" length="6207234" type="application/octet-stream"/>
+            <description><![CDATA[<style>
+    body { font-family: -apple-system, sans-serif; font-size: 0.9em; line-height: 150%; }
+    h3 { font-size: 1.5em; margin-bottom: 0; font-weight: 700; }
+    li { margin-bottom: 0.5em; }
+</style>
+<h3>Added</h3><ul><li>Add Search Shortcut `Command + Shift + F`. <a href="https://github.com/atom2ueki/YouTube-Music/pull/2">#2</a></li><li>Use the new icon which follow macOS Monterey design language. <a href="https://github.com/atom2ueki/YouTube-Music/pull/2">#2</a></li></ul>
+<h3>Fixes</h3><ul><li>Search enter keypress not working. <a href="https://github.com/atom2ueki/YouTube-Music/pull/2">#2</a></li></ul>]]></description>
         </item>
     </channel>
 </rss>

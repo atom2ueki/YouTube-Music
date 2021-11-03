@@ -11,7 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 * Add Search Shortcut `Command + Shift + F`. [#2](https://github.com/atom2ueki/YouTube-Music/pull/2)
-* Use the new icon which follow macOS Monterey design language.
+* Use the new icon which follow macOS Monterey design language.[#2](https://github.com/atom2ueki/YouTube-Music/pull/2)
 
 ### Fixes
 * Search enter keypress not working. [#2](https://github.com/atom2ueki/YouTube-Music/pull/2)
