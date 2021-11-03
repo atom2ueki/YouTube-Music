@@ -6,7 +6,7 @@
             <title>1.2.1</title>
             <pubDate>Thu, 04 Nov 2021 04:04:44 +0800</pubDate>
             <sparkle:minimumSystemVersion>10.12.2</sparkle:minimumSystemVersion>
-            <enclosure url="https://raw.githubusercontent.com/atom2ueki/YouTube-Music/master/YT-Music-1.2.1.zip" sparkle:version="1" sparkle:shortVersionString="1.2.1" length="6207234" type="application/octet-stream"/>
+            <enclosure url="https://raw.githubusercontent.com/atom2ueki/YouTube-Music/master/YT-Music-1.2.1.zip" sparkle:version="1" sparkle:shortVersionString="1.2.1" length="6218153" type="application/octet-stream"/>
             <description><![CDATA[<style>
     body { font-family: -apple-system, sans-serif; font-size: 0.9em; line-height: 150%; }
     h3 { font-size: 1.5em; margin-bottom: 0; font-weight: 700; }
