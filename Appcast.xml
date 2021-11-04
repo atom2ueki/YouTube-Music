@@ -4,9 +4,7 @@
         <title>YT Music</title>
         <item>
             <title>1.2.1</title>
-            <pubDate>Thu, 04 Nov 2021 04:04:44 +0800</pubDate>
-            <sparkle:minimumSystemVersion>10.12.2</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/atom2ueki/YouTube-Music/releases/download/1.2.1/YT-Music-1.2.1.zip" sparkle:version="1" sparkle:shortVersionString="1.2.1" length="6218153" type="application/octet-stream"/>
+            <pubDate>Thu, 04 Nov 2021 04:44:47 +0800</pubDate>
             <description><![CDATA[<style>
     body { font-family: -apple-system, sans-serif; font-size: 0.9em; line-height: 150%; }
     h3 { font-size: 1.5em; margin-bottom: 0; font-weight: 700; }
@@ -14,6 +12,25 @@
 </style>
 <h3>Added</h3><ul><li>Add Search Shortcut `Command + Shift + F`. <a href="https://github.com/atom2ueki/YouTube-Music/pull/2">#2</a></li><li>Use the new icon which follow macOS Monterey design language. <a href="https://github.com/atom2ueki/YouTube-Music/pull/2">#2</a></li></ul>
 <h3>Fixes</h3><ul><li>Search enter keypress not working. <a href="https://github.com/atom2ueki/YouTube-Music/pull/2">#2</a></li></ul>]]></description>
+            <sparkle:minimumSystemVersion>10.12.2</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/atom2ueki/YouTube-Music/releases/download/1.2.1/YT-Music-1.2.1.zip" sparkle:version="1" sparkle:shortVersionString="1.2.1" length="6218153" type="application/octet-stream"/>
+        </item>
+        <item>
+            <title>1.2.2</title>
+            <pubDate>Fri, 05 Nov 2021 01:36:40 +0800</pubDate>
+            <description><![CDATA[<style>
+    body { font-family: -apple-system, sans-serif; font-size: 0.9em; line-height: 150%; }
+    h3 { font-size: 1.5em; margin-bottom: 0; font-weight: 700; }
+    li { margin-bottom: 0.5em; }
+</style>
+<h3>Fixes</h3>
+<ul>
+    <li>Make search shortcut privatly to app level `Command + F`. <a href="https://github.com/atom2ueki/YouTube-Music/pull/4">#4</a></li>
+    <li>Movable view not able to dragable with a area. <a href="https://github.com/atom2ueki/YouTube-Music/pull/4">#4</a></li>
+</ul>
+]]></description>
+            <sparkle:minimumSystemVersion>10.12.2</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/atom2ueki/YouTube-Music/releases/download/1.2.2/YT-Music-1.2.2.zip" sparkle:version="1" sparkle:shortVersionString="1.2.2" length="6218769" type="application/octet-stream"/>
         </item>
     </channel>
 </rss>
