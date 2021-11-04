@@ -78,7 +78,7 @@ class ViewController: NSViewController {
             standardButtonsView.addSubview(btn)
         }
         
-        movableView.frame = CGRect(x: 0, y: webView.isFlipped ? 0 : webView.frame.height - 20, width: webView.frame.width, height: 20)
+        movableView.frame = CGRect(x: 0, y: webView.isFlipped ? 0 : webView.frame.height - 20, width: webView.frame.width, height: 64)
         
         let y = webView.isFlipped ? 14 : webView.frame.height - 46
         
@@ -150,6 +150,7 @@ class ViewController: NSViewController {
     
     func addMovableView() {
         movableView = WindowMovableView(frame: .zero)
+        movableView.webview = webView
         movableView.frame = CGRect(x: 0, y: 0, width: webView.frame.width, height: 20)
         webView.addSubview(movableView)
     }
