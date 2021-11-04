@@ -7,11 +7,10 @@
 //
 
 import Cocoa
-import WebKit
 
 class WindowMovableView: NSView {
     
-    weak var webview: WKWebView?
+    weak var parent: NSView?
     
     override var mouseDownCanMoveWindow: Bool {
         return true
@@ -34,15 +33,13 @@ class WindowMovableView: NSView {
             return
         }
         
-        guard event.clickCount == 2 else {
-            guard event.clickCount == 1 else {
-                return
-            }
-            // pass over event to parent
-            webview?.mouseUp(with: event)
-            return
+        switch event.clickCount {
+        case 1:
+            parent?.mouseUp(with: event)
+        case 2:
+            window.setIsZoomed(!window.isZoomed)
+        default:
+            break
         }
-        
-        window.setIsZoomed(!window.isZoomed)
     }
 }

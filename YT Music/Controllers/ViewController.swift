@@ -150,8 +150,8 @@ class ViewController: NSViewController {
     
     func addMovableView() {
         movableView = WindowMovableView(frame: .zero)
-        movableView.webview = webView
-        movableView.frame = CGRect(x: 0, y: 0, width: webView.frame.width, height: 20)
+        movableView.parent = webView
+        movableView.frame = CGRect(x: 0, y: 0, width: webView.frame.width, height: 64)
         webView.addSubview(movableView)
     }
     
