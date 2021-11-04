@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.2.2] - 2021-11-05
+
+### Fixes
+* Make search shortcut privatly to app level `Command + F`. [#4](https://github.com/atom2ueki/YouTube-Music/pull/4)
+* Movable view not able to dragable with a area. [#4](https://github.com/atom2ueki/YouTube-Music/pull/4)
+
 ## [1.2.1] - 2021-11-04
 
 ### Added
